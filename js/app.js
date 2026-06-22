@@ -1,5 +1,6 @@
 
-const API_URL = 'https://restcountries.com/v3.1/all';
+
+const API_URL = '/api/countries';
 
 const countriesGrid = document.getElementById('countries-grid');
 const loadingElement = document.getElementById('loading');
