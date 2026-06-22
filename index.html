@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard de Países do Mundo</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>🌍 Países do Mundo</h1>
+        <div class="search-filter-container">
+            <input type="text" id="search-input" placeholder="Buscar país por nome...">
+            <select id="region-filter">
+                <option value="">Filtrar por Continente</option>
+                <option value="africa">África</option>
+                <option value="americas">Américas</option>
+                <option value="asia">Ásia</option>
+                <option value="europe">Europa</option>
+                <option value="oceania">Oceania</option>
+            </select>
+        </div>
+    </header>
+
+    <main>
+        <div id="loading" class="loading">Carregando dados dos países...</div>
+        <section id="countries-grid" class="countries-grid"></section>
+    </main>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
